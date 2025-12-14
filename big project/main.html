@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media (max-width: 768px) {
+
+            .choose h1,
+            .choose h2 {
+                margin-left: 10px;
+                font-size: 18px;
+                text-align: center;
+            }
+
+            .chooseinfo h2 {
+                font-size: 18px;
+                text-align: center;
+            }
+
+            .chooseinfo p {
+                font-size: 22px;
+                text-align: center;
+            }
+
+
+            form input,
+            form textarea {
+                width: 100%;
+                font-size: 16px;
+            }
+
+            .ourteam h1,
+            .ourteam h2 {
+                margin-left: 10px;
+                font-size: 18px;
+                text-align: center;
+            }
+
+            .ourteaminfo h2 {
+                font-size: 22px;
+                text-align: center;
+            }
+
+            .ourteaminfo p {
+                font-size: 16px;
+                text-align: center;
+            }
+
+            .ourteaminfo img {
+                width: 100%;
+                height: auto;
+                margin-left: 0;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .bottom-main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .bottom-left,
+            .bottom-links,
+            .bottom-right {
+                margin: 10px 0;
+            }
+
+            .grahh-icons {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+            }
+        }
+
+        .team-title {
+            margin-left: 30px;
+            font-size: 36px;
+            color: #000;
+        }
+
+        .team-subtitle {
+            margin-left: 30px;
+            color: #000;
+            font-size: 20px;
+        }
+
+        .ourteaminfo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 40px 30px;
+        }
+
+        .member-text {
+            flex: 1;
+        }
+
+        .member-name {
+            color: #000;
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .member-role {
+            color: #000;
+            font-size: 25px;
+            margin: 10px 0;
+        }
+
+        .member-photo {
+            width: 294px;
+            height: 301px;
+            margin-left: 40px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .ourteaminfo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 40px 30px;
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .ourteaminfo {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .member-name {
+                font-size: 36px;
+            }
+
+            .member-role {
+                font-size: 18px;
+            }
+
+            .member-photo {
+                width: 90%;
+                height: auto;
+                margin-top: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container2">
+        <nav class="navbar">
+            <div>
+                <img src="images/bmw_logo_PNG19707.png" style="height: 50px; width: 50px;" class="logo">
+            </div>
+
+            <input type="checkbox" id="menu-toggle">
+
+            <label for="menu-toggle" class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </label>
+
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#Aboutus">About Us</a>
+                <a href="#ourteam">Our Team</a>
+                <a href="#Contancts">Contact</a>
+            </div>
+        </nav>
+        <div class="middle1">
+            <H1 style="font-size: 96px;">Buy you're BMW today</H1>
+            <h2 style="font-size: 32px;">please speed i need this,<br>My wallets kinda broke</h2>
+            <a href="checkout.html"><button>Check Out</button></a>
+        </div>
+        <div class="middle3">
+
+        </div>
+    </div>
+    <div class="aboutuspart" style="width: 100%;">
+        <div id="Aboutus">
+            <h1 style="margin-left: 30px">About Us</h1>
+            <h2 style="color: black; margin-left: 30px">BMW is a German luxury automotive and motorcycle<br>
+                manufacturer known for its performance-oriented engineering,<br> premium build quality, and distinctive
+                design.</h2>
+            <div class="Cars">
+                <img src="images/bmw-new-m4-coupe-cosysec.png" style="display: flex;">
+                <h2 style="color: black;">today’s active BMW model‑lineup consists of 60+ models,<br> while historically
+                    (counting all discontinued and legacy models)<br> BMW has produced many dozens more.</h2>
+            </div>
+        </div>
+    </div>
+    <div class="choose" style="width: 100%;">
+        <div>
+            <h1 style="text-align: center;">Why Choose Us</h1>
+            <h2 style="text-align: center; color: black;">BMW (Bayerische Motoren Werke AG) is a German multinational
+                <br>company headquartered in Munich, best known as one of the world’s<br> leading manufacturers of
+                premium cars and motorcycles.
+            </h2>
+            <hr>
+            <div class="chooseinfo">
+                <h2 style="color: black; font-size: 25px;">First made car</h2>
+                <p style="color: black;  font-size: 50px;">BMW 3/15 Made in 1928</p>
+            </div>
+            <hr>
+            <div class="chooseinfo">
+                <h2 style="color: black; font-size: 25px;">First Motorcycle</h2>
+                <p style="color: black;  font-size: 50px;">R 32 Made in 1923</p>
+            </div>
+            <hr>
+            <div class="chooseinfo">
+                <h2 style="color: black; font-size: 25px;">Fastest BMW car</h2>
+                <p style="color: black;  font-size: 50px;">BMW M4 CSL Goes 307km/h</p>
+            </div>
+        </div>
+        <div class="Contact" id="">
+            <div style="margin-top: 50px;" id="Contancts">
+                <h2 style="color: black;">Contact Us</h2>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Your name" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Your email" required><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" placeholder="Write your message" required></textarea><br><br>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="ourteam" id="ourteam">
+            <h1 class="team-title">Meet Our Team</h1>
+            <h2 class="team-subtitle">
+                Our Team offers you best cars for cheap prices,<br>
+                as well as Strong cars and race cars.
+            </h2>
+            <hr>
+
+            <div class="ourteaminfo">
+                <div class="member-text">
+                    <h2 class="member-name">Oliver Zipse</h2>
+                    <p class="member-role">Chairman of the Board of Management / CEO</p>
+                </div>
+                <img class="member-photo"
+                    src="images/P90589735-oliver-zipse-chairman-of-the-board-of-management-of-bmw-ag-02-2025-2250px.jpg"
+                    alt="Oliver Zipse">
+            </div>
+            <hr>
+
+            <div class="ourteaminfo">
+                <div class="member-text">
+                    <h2 class="member-name">Dr. Milan Nedeljković</h2>
+                    <p class="member-role">Member — Production</p>
+                </div>
+                <img class="member-photo"
+                    src="images/P90537732-dr-milan-nedeljkovic-member-of-the-board-of-management-of-bmw-ag-responsible-for-production-02-2024-2250px.jpg"
+                    alt="Dr. Milan Nedeljković">
+            </div>
+            <hr>
+
+            <div class="ourteaminfo">
+                <div class="member-text">
+                    <h2 class="member-name">Dr. Joachim Post</h2>
+                    <p class="member-role">Member — Purchasing & Supplier Network</p>
+                </div>
+                <img class="member-photo"
+                    src="images/P90613811-dr-joachim-post-member-of-the-board-of-management-of-bmw-ag-development-08-2025-1125px.jpg"
+                    alt="Dr. Joachim Post">
+            </div>
+        </div>
+
+        <div class="bottom-main">
+            <div class="bottom-left">
+                <div class="logo"><img src="images/bmw_logo_PNG19707.png" style="width: 50px; height: 50px;" alt="">
+                </div>
+                <p>Buy The Best Car On Planet</p>
+            </div>
+
+            <div class="bottom-links">
+                <div class="link-gng">
+                    <h4>Read More</h4>
+                    <a href="https://www.bmw.com/en/digital-journey/inside-neue-klasse-video-series.html">Click
+                        here</a>
+                </div>
+                <div class="link-gng">
+                    <h4>Official Site</h4>
+                    <a href="https://www.bmw.com/en/index.html">Click here</a>
+                </div>
+                <div class="link-gng">
+                    <h4>Check Out</h4>
+                    <a href="checkout.html">Click here</a>
+                </div>
+            </div>
+
+            <div class="bottom-right">
+                <h4>Connect with us</h4>
+                <div class="grahh-icons">
+                    <div class="icon"><a href="https://x.com/BMW"><img src="images/Screenshot 2025-12-07 214248.png"
+                                style="width: 32px;height: 32px;"></a></div>
+                    <div class="icon"><a href="https://www.instagram.com/bmw/"><img
+                                src="images/Screenshot 2025-12-07 214307.png" style="width: 32px;height: 32px;"></a>
+                    </div>
+                    <div class="icon"><a href="https://www.facebook.com/BMW"><img
+                                src="images/Screenshot 2025-12-07 214324.png" style="width: 32px;height: 32px;"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

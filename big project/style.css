@@ -1,0 +1,387 @@
+* {
+    box-sizing: border-box;
+    font-family: fonti;
+}
+@font-face {
+    font-family: fonti;
+    src: url(font/Oswald-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.container2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/2025-bmw-m3-competition-xdrive-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.middle1 {
+    margin: 30px;
+    padding: 20px;
+    width: 50%;
+    height: 100vh;
+    margin-top: 70px;
+}
+
+.middle2 {
+    margin: 30px;
+    padding: 20px;
+    width: 50%;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #050505;
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #111;
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.nav-links a,
+.check {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    background-color: white;
+}
+
+button>a {
+    background-color: #177205;
+}
+
+#menu-toggle:checked~.nav-links {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        background: none;
+    }
+
+    .nav-links a {
+        margin-left: 20px;
+    }
+
+}
+
+H1 {
+    font-size: 50px;
+    font-weight: 600px;
+    font-weight: bold;
+    color: #262626;
+}
+
+h2 {
+    font-weight: 400px;
+    font-size: 20px;
+    font-weight: normal;
+    color: lightgray;
+}
+
+button,
+button>a {
+    color: black;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 162px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button:hover,
+.button>a:hover {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    background-color: #23661d;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 162px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 2s;
+}
+
+.containermain {
+    background-color: #177205;
+    color: black;
+    width: 37%;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+.textybar {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.checkoutbox {
+    border-radius: 20px;
+    width: 340px;
+    gap: 20px;
+    border: 1px solid black;
+    height: 40px;
+    text-align: center;
+}
+
+.buttonbuy,
+.buttonbuy>a {
+    color: black;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 162px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.buttonbuy>a {
+    text-decoration: none;
+    border: none
+}
+
+.middle2 {
+    text-align: center;
+}
+
+.Cars {
+    display: flex;
+}
+
+.choose {
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+hr {
+    height: 7px;
+    color: black;
+}
+
+.chooseinfo {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contact {
+    width: 100%;
+    background-color: rgb(235, 235, 236);
+    align-items: center;
+    text-align: center;
+}
+
+#email,
+#name,
+#message {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.ourteam {
+    width: 100%;
+}
+
+.ourteaminfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.bottom-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 60px 30px 60px;
+    flex-wrap: wrap;
+    background-color: #f8f8f8;
+    margin-top: auto;
+    margin-top: 150px;
+}
+
+.bottom-left {
+    flex: 1;
+    max-width: 300px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.bottom-links {
+    display: flex;
+    gap: 40px;
+    flex: 2;
+    justify-content: center;
+}
+
+.link-gng h4 {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.link-gng a {
+    display: block;
+    margin-bottom: 8px;
+    color: gray;
+    text-decoration: none;
+}
+
+.bottom-right {
+    flex: 1;
+    max-width: 200px;
+}
+
+.bottom-right h4 {
+    margin-bottom: 12px;
+}
+
+.grahh-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.icon {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: #f4f4f4;
+        padding: 10px;
+    }
+
+    #menu-toggle:checked ~ .nav-links {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .middle1 h1 {
+        font-size: 40px !important;
+        text-align: center;
+    }
+
+    .middle1 h2 {
+        font-size: 18px !important;
+        text-align: center;
+    }
+
+    .middle1 button {
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    .Cars {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Cars img {
+        width: 100%;
+        height: auto;
+    }
+
+    .chooseinfo p {
+        font-size: 28px !important;
+    }
+
+    .ourteaminfo {
+        text-align: center;
+    }
+
+    .ourteaminfo img {
+        margin-left: 0 !important;
+        width: 90%;
+        height: auto;
+    }
+
+    .bottom-main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bottom-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .grahh-icons {
+        justify-content: center;
+    }
+}
